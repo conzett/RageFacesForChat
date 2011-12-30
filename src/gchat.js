@@ -1,0 +1,1 @@
+﻿setInterval ("checker('[role=\"chatMessage\"] [dir]')", 250);

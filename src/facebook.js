@@ -1,0 +1,1 @@
+setInterval ("checker('.fbChatMessage')", 250);
