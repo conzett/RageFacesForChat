@@ -11,10 +11,12 @@
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
+      "css":["css/style.css"],
       "js": ["lib/jquery-1.7.1.min.js", "src/common.js", "src/gchat.js"]
     },
     {
       "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "css":["css/style.css"],
       "js": ["lib/jquery-1.7.1.min.js", "src/common.js", "src/facebook.js"]
     }
   ]

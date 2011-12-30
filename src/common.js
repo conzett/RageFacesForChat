@@ -1,10 +1,5 @@
-$(document).ready(function() {
-	/* Load External Stylesheet */
-	$('head').append('<link rel="stylesheet" type="text/css" media="screen" href="http://www.reddit.com/r/fffffffuuuuuuuuuuuu/stylesheet.css" />');
-});
-
 function substitute(string){
-	 string = string.replace(new RegExp("(\/poker\$)", "g"), '<a href="/poker"/>');
+	string = string.replace(new RegExp("(\/poker\$)", "g"), '<a href="/poker"/>');
 	string = string.replace(new RegExp("(\/wetodddog\$)", "g"), '<a href="/wetodddog"/>');
 	string = string.replace(new RegExp("(\/sadtroll\$)", "g"), '<a href="/sadtroll"/>');
 	string = string.replace(new RegExp("(\/trolldad\$)", "g"), '<a href="/trolldad"/>');
