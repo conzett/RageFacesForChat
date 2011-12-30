@@ -1,0 +1,17 @@
+{
+  "name": "Rage Faces for Chat",
+  "version": "0.1",
+  "description": "FFFFFFFUUUUUUUUUUUU",
+  "icons": { "16": "icons/icon16.png",
+             "48": "icons/icon48.png",
+            "128": "icons/icon128.png" },
+  "default_locale": "en",
+  "permissions": ["*://mail.google.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["lib/jquery-1.7.1.min.js", "src/rage.js"]
+    }
+  ]
+}
