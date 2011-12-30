@@ -1,7 +1,7 @@
 {
   "name": "Rage Faces for Chat",
   "version": "0.1",
-  "description": "FFFFFFFUUUUUUUUUUUU",
+  "description": "Adds rage faces to both GChat and Facebook Chat.",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",
             "128": "icons/icon128.png" },
